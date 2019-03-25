@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script src="./js/iscroll.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/public.css">
+    <link rel="stylesheet" type="text/css" href="./css/basic_square.css">
+    <link rel="stylesheet" type="text/css" href="./css/iscroll.css">
+    <title>阅晒客</title>
+</head>
+
+<body>
+    <div id="loading" class="animation-rotate">
+        <img src="./images/refresh.png" alt="flash" />
+    </div>
+    <div id="wrapper" style="visibility: hidden;">
+        <div id="scroller">
+            <div id="pullDown">
+                <div id="downflash">
+                    <img src="./images/refresh.png" alt="flash" />
+                </div>
+            </div>
+            <div class="wrapbox">
+                <div class="card" id="card1">
+                    <img src="./images/girl.jpeg" class="img-circle head" />
+                    <p class="username">容会如何处理</p>
+                    <div class="title">
+                        <p>性定义溢出元素内容区的内容会</p>
+                    </div>
+                    <div class="context">
+                        <p>这个属性定义溢出元素内容区的内容会如何如果值为 scroll，不论是否需要，用户代理都会提供一种滚动机制。因此，有可能即使元素框中可以放下所有内容也会出现滚动条。默认值是
+                            visible。</p>
+                    </div>
+                    <div class="funclist">
+                        <ul>
+                            <li>
+                                <p class="like" href="return false">
+                                    <span class="glyphicon glyphicon-heart"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="comment" href="return false">
+                                    <span class="glyphicon glyphicon-comment"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <div class="card-box">
+                        <!--解决float失效的问题-->
+                        <img src="./images/head.jpg" class="img-circle head" />
+                        <p class="username"></p>
+                    </div>
+                    <p class="title"></p>
+                    <div class="context">
+                        <p></p>
+                    </div>
+                    <div class="funclist">
+                        <ul>
+                            <li>
+                                <p class="like" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-heart"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="comment" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-comment"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="card3">
+                    <div class="card-box">
+                        <!--解决float失效的问题-->
+                        <img src="./images/reba.jpg" class="img-circle head" />
+                        <p class="username"></p>
+                    </div>
+                    <p class="title"></p>
+                    <div class="context">
+                        <p></p>
+                    </div>
+                    <div class="funclist">
+                        <ul>
+                            <li>
+                                <p class="like" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-heart"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="comment" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-comment"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="card4">
+                    <div class="card-box">
+                        <!--解决float失效的问题-->
+                        <img src="./images/0.jpg" class="img-circle head" />
+                        <p class="username"></p>
+                    </div>
+                    <p class="title"></p>
+                    <div class="context">
+                        <p></p>
+                    </div>
+                    <div class="funclist">
+                        <ul>
+                            <li>
+                                <p class="like" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-heart"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="comment" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-comment"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="card5">
+                    <div class="card-box">
+                        <!--解决float失效的问题-->
+                        <img src="./images/0.jpg" class="img-circle head" />
+                        <p class="username"></p>
+                    </div>
+                    <p class="title"></p>
+                    <div class="context">
+                        <p></p>
+                    </div>
+                    <div class="funclist">
+                        <ul>
+                            <li>
+                                <p class="like" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-heart"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="comment" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-comment"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="card6">
+                    <div class="card-box">
+                        <!--解决float失效的问题-->
+                        <img src="./images/0.jpg" class="img-circle head" />
+                        <p class="username"></p>
+                    </div>
+                    <p class="title"></p>
+                    <div class="context">
+                        <p></p>
+                    </div>
+                    <div class="funclist">
+                        <ul>
+                            <li>
+                                <p class="like" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-heart"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="comment" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-comment"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="card7">
+                    <div class="card-box">
+                        <!--解决float失效的问题-->
+                        <img src="./images/0.jpg" class="img-circle head" />
+                        <p class="username"></p>
+                    </div>
+                    <p class="title"></p>
+                    <div class="context">
+                        <p></p>
+                    </div>
+                    <div class="funclist">
+                        <ul>
+                            <li>
+                                <p class="like" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-heart"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="comment" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-comment"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="card8">
+                    <div class="card-box">
+                        <!--解决float失效的问题-->
+                        <img src="./images/0.jpg" class="img-circle head" />
+                        <p class="username"></p>
+                    </div>
+                    <p class="title"></p>
+                    <div class="context">
+                        <p></p>
+                    </div>
+                    <div class="funclist">
+                        <ul>
+                            <li>
+                                <p class="like" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-heart"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="comment" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-comment"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="card9">
+                    <div class="card-box">
+                        <!--解决float失效的问题-->
+                        <img src="./images/0.jpg" class="img-circle head" />
+                        <p class="username"></p>
+                    </div>
+                    <p class="title"></p>
+                    <div class="context">
+                        <p></p>
+                    </div>
+                    <div class="funclist">
+                        <ul>
+                            <li>
+                                <p class="like" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-heart"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="comment" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-comment"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" id="card10">
+                    <div class="card-box">
+                        <!--解决float失效的问题-->
+                        <img src="./images/0.jpg" class="img-circle head" />
+                        <p class="username"></p>
+                    </div>
+                    <p class="title"></p>
+                    <div class="context">
+                        <p></p>
+                    </div>
+                    <div class="funclist">
+                        <ul>
+                            <li>
+                                <p class="like" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-heart"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="comment" href="javascript:void(0);">
+                                    <span class="glyphicon glyphicon-comment"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="pullUp">
+                <div id="upflash" class="animation-rotate">
+                    <img src="./images/refresh.png" alt="flash" />
+                </div>
+                <p style="display:none">已加载全部</p>
+            </div>
+        </div>
+    </div>
+    <img id="post" src="./images/edit.png" class="edit">
+    <script src="./js/config.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" name="viewport">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/order.css">
+    <script src="../js/iscroll.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/iscroll.css">
+</head>
+
+<body style="overflow: scroll;">
+    <div id="loading" class="animation-rotate">
+        <img src="../images/refresh.png" alt="flash" />
+    </div>
+    <div id="wrapper" style="visibility: hidden;">
+        <div id="scroller">
+            <div id="pullDown">
+                <div id="downflash">
+                    <img src="../images/refresh.png" alt="flash" />
+                </div>
+            </div>
+            <div class="wrapbox">
+            </div>
+            <div id="pullUp" style="display:none;">
+                <div id="upflash" class="animation-rotate">
+                    <img src="../images/refresh.png" alt="flash" />
+                </div>
+                <p style="display:none">已加载全部</p>
+            </div>
+        </div>
+    </div>
+    <script src="../js/config.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
+<!--LHC-2015-10-06-->

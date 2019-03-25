@@ -1,0 +1,64 @@
+
+body{
+    background-color: whitesmoke;
+}
+.card{
+    border-radius: 4px;    
+    width: 100%;
+    background-color: white;
+    margin: 0 0 5% 0;
+    overflow:hidden;
+}
+.head{
+    float: left;
+    margin:0 2%;
+    margin-top: 1%;
+    width: 30px;
+    height: 30px;
+}
+.username{
+    float: left;
+    margin: 0.7% 0 0 0 ;
+    font-size: 20px;
+}
+.title{
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 30px;
+}
+.context{
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    margin:0 2%;
+    font-size: 12px;
+}
+.funclist li{
+    padding: 2% 0;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.funclist li:active{
+    background-color: gainsboro;
+}
+.funclist p{
+    color: #337ab7;
+}
+.edit{
+    border-radius: 50%;
+    position: fixed;
+    left: 82%;
+    bottom: 5%;
+    background-color: #337ab7;
+    width: 50px;
+    height:50px;
+    border: solid;  
+    border-width: 2px; 
+    border-color: silver;
+    z-index: 10;
+}
+

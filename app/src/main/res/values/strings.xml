@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">阅晒客</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_scan">扫一扫</string>
+    <string name="action_post_add">发帖</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="nav_scan">扫一扫</string>
+    <string name="nav_post_show">我的贴子</string>
+    <string name="nav_info_edit">个人信息</string>
+    <string name="title_order">订单</string>
+    <string name="title_square">广场</string>
+    <string name="title_search">发现</string>
+    <string name="nav_exit">退出登录</string>
+</resources>

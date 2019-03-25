@@ -1,0 +1,36 @@
+.nav{
+     border-top-color: red;
+}
+.post_time{
+	color: #b2aeae;
+	font-size: 10px;
+	margin-left: 50px;
+	margin-top: -10px;
+}
+.content > p{
+	margin-right: 10px;
+	text-indent:2em;
+
+}
+.content > h4{
+	text-align: center;
+}
+
+.funclist li{
+    padding: 2% 0;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.funclist li:active{
+    background-color: gainsboro;
+}
+.funclist p{
+    color: #337ab7;
+}
+
+li{list-style-type: none;}
+.comment{
+    position: fixed;
+    bottom:0;
+}

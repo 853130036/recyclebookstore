@@ -1,0 +1,43 @@
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+border-color: transparent;
+}
+
+img{
+	width:89px;
+	height: 124px;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+}
+
+span{
+	font-size: 12px;
+}
+
+.rent{
+	font-size:14px;
+	color: white;
+	background-color: #00af9d;
+	border-radius: 25px;
+	border-color: transparent;
+	outline: none;
+}
+
+h6{
+	font-weight: normal;
+	font-size: 12px;
+	margin: 5px;
+	display: block;
+	width:90px;
+	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.link{
+	color: black;
+}
+a:hover{
+	color: #00af9d;
+	text-decoration: none;
+}

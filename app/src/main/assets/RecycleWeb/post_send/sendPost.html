@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>发表</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./sendPost.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="fix_nav">
+            <div class="nav_inner">
+                <a class="nav-left back-icon" href="jumpToMain">返回</a>
+                <div class="tit">分享</div>
+                <div class="share" id="share">
+                    <a class="nav-right share-icon" id="shareContent">发表</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div>
+        <form role="form">
+            <div class="form-group">
+                <label for="title">标题</label>
+                <input type="text" class="form-control" style="border-radius: 0;" id="title" placeholder="输入标题">
+            </div>
+
+            <div class="form-group">
+                <label for="">内容</label>
+                <textarea class="form-control" rows="7" style="width:100%;border-radius: 0;" id="content" placeholder="分享心得..."></textarea>
+            </div>
+        </form>
+    </div>
+    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#falseDialg" style="display:none" id="false"></button>
+    <div class="modal fade" id="falseDialg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">
+                        发表失败！
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    标题或内容不能为空！
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">确认</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#trueDialg" style="display:none" id="true"></button>
+    <div class="modal fade" id="trueDialg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    发表成功！
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+    
+    <script src="../js/config.js"></script>
+    <script src="./sendPost.js"></script>
+</body>
+
+</html>

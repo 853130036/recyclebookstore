@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文学类</title>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/borrow.css">
+  <script type="text/javascript" src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="well well-sm">第<span id="bookcaseId"></span>号站点藏书</div>
+  <ul id="mytab" class="nav nav-tabs">
+    <li class="active"><a href="#literature" data-toggle="tab" class="link">文学</a></li>
+    <li><a href="#mood" data-toggle="tab" class="link">情感</a></li>
+    <li><a href="#novel" data-toggle="tab" class="link">小说</a></li>
+    <li><a href="#magazine" data-toggle="tab" class="link">杂志</a></li>
+    <li><a href="#travel" data-toggle="tab" class="link">旅游</a></li>
+    <li><a href="#science" data-toggle="tab" class="link">科普</a></li>
+  </ul>
+
+  <div id="myTabContent" class="tab-content">
+    <div class="tab-pane fade in active" id="literature">
+      <table class="table table-bordered">
+        <tbody id="literaturebook">
+
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tab-pane fade" id="mood">
+      <table class="table table-bordered">
+        <tbody id="moodbook">
+
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tab-pane fade" id="novel">
+      <table class="table table-bordered">
+        <tbody id="novelbook">
+
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tab-pane fade" id="magazine">
+      <table class="table table-bordered">
+        <tbody id="magazinebook">
+          <tr>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tab-pane fade" id="travel">
+      <table class="table table-bordered">
+        <tbody id="travelbook">
+
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tab-pane fade" id="science">
+      <table class="table table-bordered">
+        <tbody id="sciencebook">
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#trueDialg" style="display:none" id="true"></button>
+  <div class="modal fade" id="trueDialg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          借书成功！
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+  </div>
+  <script src="../js/config.js"></script>
+  <script src="../js/borrow.js"></script>
+</body>
+
+</html>

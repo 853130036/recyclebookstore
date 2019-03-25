@@ -1,0 +1,75 @@
+#bookinfo{
+    text-align: center;
+}
+.bookimg{
+	margin-top: 20px;
+	width:100px;
+	height:130px; 
+}
+h6{
+	color: #919191;
+}
+.well{
+	border-radius: 2px;
+	overflow: auto;
+	padding: 10px;
+	padding-bottom: 15px;
+}
+
+#preview{
+	background-color:#fff;
+	padding-left: 5px;
+}
+
+#head{
+	float: left;
+}
+.headimg{
+	width: 55px;
+	height: 55px;
+	border-radius: 50px;
+}
+#writer{
+	margin-left:30px;
+	width: 210px;
+	height:60px;
+	float: left;
+}
+h4{
+font-size: 15px;
+}
+.name{
+	color: #00af9d;
+}
+.review{
+	margin-top: -15px;
+}
+.nav{
+	font-size: 13px;
+}
+.reviewbut > img{
+	width: 20px;
+	height: 15px;
+}
+.reviewbut{
+	margin-right: 20px;
+	float: right;
+}
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+border-color: transparent;
+border-bottom-color: #bebbbb;
+}
+
+.userimg{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+}
+.username{
+	margin-left: 10px;
+	color: #00af9d;
+}
+.content{
+	margin:10px 10px 10px;
+	font-size: 13px;
+}

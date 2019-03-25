@@ -1,0 +1,73 @@
+#downflash,#upflash{
+	width:30px;
+    height:30px;
+    position: absolute;
+    left: 45%;
+    z-index: 100;
+}
+ 
+#downflash img,#upflash img{
+	width:30px;
+	height:30px;
+}
+
+#loading{
+	width:30px;
+    height:30px;
+    position: absolute;
+    left: 45%;
+    z-index: 100;
+}
+ 
+#loading img{
+	width:30px;
+	height:30px;
+}
+
+@keyframes flash-rotate{
+	0% {}
+	100% {-webkit-transform:rotate(360deg);}
+}
+ 
+.animation-rotate{
+	-webkit-animation-name:flash-rotate;
+	-webkit-animation-duration:0.8s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-iteration-count:infinite;
+}
+
+
+
+#wrapper {
+    position:absolute; z-index:1;
+    top:0px;
+    bottom:0px;
+    width:100%;
+    overflow:auto;
+}
+
+#scroller {
+    position:absolute;
+    z-index:1;
+    /*	-webkit-touch-callout:none;*/
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    width:100%;
+    padding:0;
+}
+/**
+ *
+ * Pull down styles
+ *
+ */
+#pullDown{
+    height:40px;
+}
+@-webkit-keyframes loading {
+    from { -webkit-transform:rotate(0deg) translateZ(0); }
+    to { -webkit-transform:rotate(360deg) translateZ(0); }
+}
+#pullUp {
+    height:40px;
+    text-align: center;
+}
+

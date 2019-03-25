@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>捐书</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/send.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/userinfo.css">
+    <script src="./js/donate.js"></script>
+</head>
+
+<body>
+    <div class="page-group">
+        <header class="header">
+            <div class="fix_nav">
+                <div class="nav_inner">
+                    <a class="nav-left back-icon" href="#">返回</a>
+                    <div class="tit">捐书信息</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="content">
+
+            <div class="list-block">
+                <ul>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label">书名</div>
+                                <div class="item-input">
+                                    <input type="text" id="bookName">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label">作者</div>
+                                <div class="item-input">
+                                    <input type="text" id="athor">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label">站点编号</div>
+                                <div class="item-input">
+                                    <input type="text" id="stationNum">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-block">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <a type="button" class="btn btn-success" id="update" style="width:100%;height:20% ;border-radius: 3rem;">提交</a>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="display:none" id="donateSuccess">
+            </button>
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">
+                                捐书请求已提交，等待管理员审核！
+                            </h4>
+                        </div>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal -->
+            </div>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+.tit {
+    color: #fff;
+    font-weight: normal;
+    height: 50%;
+    text-align: center;
+    font-size: 18px;
+}
+.share {
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    
+}
+.nav-right{
+    width: 44px;
+    height: 42px;
+    position: absolute;
+    right: -10px;
+    text-indent: -999px;
+}
+.fix_nav {
+    height: 44px;
+    line-height: 44px;
+    position: fixed;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+.nav_inner {
+    max-width: 768px;
+    margin: 0 auto;
+    background: #000000;
+    position: relative;
+}
+.header {
+    height: 44px;
+    position: relative;
+}
+div {
+    display: block;
+}
+.nav-left {
+    width: 42px;
+    height: 34px;
+    position: absolute;
+    top: 5px;
+    display: block;
+    overflow: hidden;
+    text-indent: -999px;
+    border-radius: 5px;
+}
+.back-icon {
+    background: url(../../images/返回.png) no-repeat center;
+    background-size: 24px;
+    -webkit-background-size: 24px;
+}
+.share-icon {
+    background: url(../../images/分享.png) no-repeat center;
+    background-size: 24px;
+    -webkit-background-size: 24px;
+}
+.change-icon {
+    background: url(../../images/编辑.png) no-repeat center;
+    background-size: 24px;
+    -webkit-background-size: 24px;
+}
